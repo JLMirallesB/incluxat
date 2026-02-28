@@ -3,42 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Guía de referencia para inclusión educativa en conservatorios de música de la Comunitat Valenciana. Base de conocimiento para sistemas RAG y revisión docente.">
-  <meta name="keywords" content="inclusión educativa, conservatorios música, Comunitat Valenciana, NEAE, medidas inclusivas, Decreto 104/2018, Orden 20/2019">
+  <meta name="description" content="Guía de referencia para inclusión educativa en conservatorios de música de la Comunitat Valenciana. Base de conocimiento del chatbot Incluxat.">
+  <meta name="keywords" content="inclusión educativa, conservatorios música, Comunitat Valenciana, NEAE, medidas inclusivas, Decreto 104/2018, Orden 20/2019, Incluxat">
   <meta name="robots" content="index, follow">
-  <meta name="author" content="Incluxat">
+  <meta name="author" content="José Luis Miralles Bono">
   <meta property="og:title" content="Incluxat — Guía de inclusión educativa en conservatorios de música">
-  <meta property="og:description" content="Base de conocimiento sobre medidas inclusivas en conservatorios de música (Comunitat Valenciana). Optimizada para RAG y lectura humana.">
+  <meta property="og:description" content="Base de conocimiento del chatbot Incluxat sobre medidas inclusivas en conservatorios de música (Comunitat Valenciana).">
   <meta property="og:type" content="article">
-  <title>Incluxat — Guía de inclusión educativa en conservatorios de música (CV)</title>
+  <title>Incluxat — Guía de inclusión educativa en conservatorios (CV)</title>
   <link rel="stylesheet" href="style.css">
 
-  <!-- JSON-LD: estructura semántica para sistemas RAG y motores de búsqueda -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "TechArticle",
     "name": "Guía de referencia para inclusión educativa en conservatorios de música (Comunitat Valenciana)",
-    "description": "Referencia de trabajo para docentes de conservatorios de enseñanzas elementales y profesionales. Base de conocimiento sobre medidas inclusivas según Decreto 104/2018 y Orden 20/2019.",
+    "description": "Base de conocimiento del chatbot Incluxat. Referencia sobre medidas inclusivas según Decreto 104/2018 y Orden 20/2019.",
     "inLanguage": "es",
     "datePublished": "2026-02-28",
     "dateModified": "2026-02-28",
-    "audience": {
-      "@type": "Audience",
-      "audienceType": "Docentes de conservatorios de música, Orientadores educativos, Sistemas RAG"
-    },
+    "author": { "@type": "Person", "name": "José Luis Miralles Bono", "url": "https://www.jlmirall.es" },
     "about": [
       { "@type": "Thing", "name": "Educación inclusiva" },
       { "@type": "Thing", "name": "Conservatorios de música" },
-      { "@type": "Thing", "name": "Necesidades específicas de apoyo educativo" },
-      { "@type": "Thing", "name": "Decreto 104/2018" },
-      { "@type": "Thing", "name": "Orden 20/2019" }
-    ],
-    "isPartOf": {
-      "@type": "WebSite",
-      "name": "Incluxat",
-      "url": "https://jlmirallesb.github.io/incluxat/"
-    }
+      { "@type": "Thing", "name": "Necesidades específicas de apoyo educativo" }
+    ]
   }
   </script>
 </head>
@@ -48,62 +37,94 @@
 
   <header role="banner">
     <div class="header-inner">
-      <p class="header-tag">Comunitat Valenciana · EE y EP</p>
-      <h1>Guía de referencia para inclusión educativa en conservatorios de música</h1>
-      <p class="header-subtitle">Apoyo a docentes de conservatorios de enseñanzas elementales y profesionales</p>
+      <div class="header-top">
+        <div class="brand">
+          <span class="brand-name" aria-label="Incluxat">incluxat</span>
+          <span class="brand-sub">Guía de inclusión en conservatorios · CV</span>
+        </div>
+        <div class="header-controls">
+          <nav class="lang-switcher" aria-label="Idioma / Idioma">
+            <a href="index.html" class="lang-btn lang-btn--active" aria-current="page" hreflang="es" lang="es">ES</a>
+            <span class="lang-sep" aria-hidden="true">/</span>
+            <a href="index-va.html" class="lang-btn" hreflang="ca-val" lang="ca-val">VA</a>
+          </nav>
+          <button class="nav-toggle" aria-expanded="false" aria-controls="toc-nav" aria-label="Abrir tabla de contenidos">
+            <span class="nav-toggle__icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
     </div>
   </header>
 
+  <div id="toc-overlay" class="toc-overlay" aria-hidden="true"></div>
+
   <div class="layout">
 
-    <nav aria-label="Tabla de contenidos" class="toc">
-      <h2 class="toc-title">Contenidos</h2>
-
-      <p class="toc-group-label toc-group-label--human" aria-label="Sección para lectores humanos">
-        Contexto
-      </p>
+    <nav id="toc-nav" aria-label="Tabla de contenidos" class="toc">
+      <div class="toc-header">
+        <h2 class="toc-title">Contenidos</h2>
+        <button class="toc-close" aria-label="Cerrar tabla de contenidos">✕</button>
+      </div>
+      <p class="toc-group-label toc-group-label--human">Contexto</p>
       <ol class="toc-list">
-        <li><a href="#sobre-este-documento">Sobre este documento</a></li>
-        <li><a href="#fuentes">Fuentes utilizadas</a></li>
+        <li><a href="#sobre-incluxat">Sobre Incluxat</a></li>
+        <li><a href="#sobre-este-documento">Qué es este documento</a></li>
+        <li><a href="#fuentes">Fuentes</a></li>
+        <li><a href="#contribuir">Contribuir</a></li>
       </ol>
-
-      <p class="toc-group-label toc-group-label--rag" aria-label="Base de conocimiento para RAG">
-        Base de conocimiento
-      </p>
-      <ol class="toc-list" start="3">
-        <li><a href="#legislacion">Legislación vinculada</a></li>
-        <li><a href="#definiciones">Definiciones troncales</a></li>
+      <p class="toc-group-label toc-group-label--rag">Base de conocimiento</p>
+      <ol class="toc-list" start="5">
+        <li><a href="#legislacion">Legislación</a></li>
+        <li><a href="#definiciones">Definiciones</a></li>
         <li><a href="#niveles">Niveles 1–4</a></li>
         <li><a href="#tipos-medidas">Tipos de medidas</a></li>
         <li>
           <a href="#banco-ejemplos">Banco de ejemplos</a>
           <ol>
-            <li><a href="#nivel-1">Nivel 1 (centro)</a></li>
-            <li><a href="#nivel-2">Nivel 2 (grupo-clase)</a></li>
-            <li><a href="#conservatorios">Conservatorios por asignatura</a></li>
-            <li><a href="#nivel-3">Nivel 3 (diferenciada)</a></li>
-            <li><a href="#nivel-4">Nivel 4 (extraordinaria)</a></li>
+            <li><a href="#nivel-1">Nivel 1</a></li>
+            <li><a href="#nivel-2">Nivel 2</a></li>
+            <li><a href="#conservatorios">Por asignatura</a></li>
+            <li><a href="#nivel-3">Nivel 3</a></li>
+            <li><a href="#nivel-4">Nivel 4</a></li>
           </ol>
         </li>
-        <li><a href="#perfiles">Perfiles de necesidad</a></li>
+        <li><a href="#perfiles">Perfiles</a></li>
         <li><a href="#pruebas-acceso">Pruebas de acceso</a></li>
       </ol>
     </nav>
 
     <main id="main-content" role="main">
 
-      <!-- ╔═══════════════════════════════════════════════╗
-           ║  BLOQUE 1 — CONTEXTO (solo para humanos)     ║
-           ╚═══════════════════════════════════════════════╝ -->
-      <div class="block block--human" aria-label="Información de contexto para lectores humanos">
+      <!-- ╔══════════════════════════════════════════════╗
+           ║  BLOQUE 1 — PARA LECTORES HUMANOS           ║
+           ╚══════════════════════════════════════════════╝ -->
+      <div class="block block--human" aria-label="Información para lectores humanos">
         <div class="block-badge block-badge--human" aria-hidden="true">
           <span class="block-badge__icon">◎</span> Para lectores humanos
         </div>
 
+        <!-- Sobre Incluxat + autoría -->
+        <section id="sobre-incluxat" aria-labelledby="h-incluxat">
+          <h2 id="h-incluxat">Sobre Incluxat</h2>
+
+          <div class="author-card">
+            <p><strong>Incluxat</strong> es una guía/chatbot orientada a docentes de conservatorios de música de la Comunitat Valenciana. Este documento es su base de conocimiento: usa el contenido de la sección <em>Base de conocimiento</em> para fundamentar sus respuestas sobre medidas de inclusión educativa.</p>
+            <p>Ha sido elaborado por <strong>José Luis Miralles Bono</strong> a partir de las fuentes normativas e institucionales listadas abajo.</p>
+            <ul class="author-links">
+              <li><a href="https://www.jlmirall.es" rel="author external" target="_blank">🌐 www.jlmirall.es</a></li>
+              <li><a href="https://elpulpoenelvaso.jlmirall.es" rel="author external" target="_blank">✏️ Blog: El pulpo en el vaso</a></li>
+              <li><a href="https://ko-fi.com/miralles" rel="external" target="_blank">☕ Invítame a un café (Ko-fi)</a></li>
+            </ul>
+          </div>
+
+          <p class="version-info">Versión inicial: <time datetime="2026-02-28">28 de febrero de 2026</time>. Última actualización con materiales de sesiones técnicas: <time datetime="2026-02-28">28 de febrero de 2026</time>.</p>
+          <p class="version-note">Referencia de trabajo sujeta a revisión. No sustituye la normativa oficial ni la intervención de orientación educativa.</p>
+        </section>
+
+        <!-- Qué es y qué no es -->
         <section id="sobre-este-documento" aria-labelledby="h-sobre">
           <h2 id="h-sobre">Qué es y qué no es este documento</h2>
           <p>Esta guía es una <strong>referencia breve de trabajo</strong> para apoyar a docentes de conservatorios de música (enseñanzas elementales y profesionales) en la orientación de medidas inclusivas.</p>
-          <p>El propósito principal de este documento es servir como base de consulta para una guía/chatbot, y también se comparte para revisión humana y propuesta de mejoras.</p>
           <p>No sustituye:</p>
           <ul>
             <li>la lectura completa de la normativa,</li>
@@ -112,6 +133,7 @@
           </ul>
         </section>
 
+        <!-- Fuentes -->
         <section id="fuentes" aria-labelledby="h-fuentes">
           <h2 id="h-fuentes">Fuentes utilizadas</h2>
 
@@ -121,19 +143,39 @@
             <li>ORDEN 20/2019, de 30 de abril, de la Conselleria de Educación, Investigación, Cultura y Deporte.</li>
           </ol>
 
-          <h3>Fuentes de guías y materiales de apoyo institucional</h3>
+          <h3>Materiales de apoyo institucional</h3>
           <ol>
             <li>Capítulo IV. <em>Exemplificació de mesures d'inclusió</em> (matriz de ejemplos por niveles y dimensiones).</li>
-            <li><em>1a Sesiones técnicas ERE música y danza — CEFIRE Inclusiva</em> (se incorpora solo el bloque de propuestas para conservatorios de música).</li>
-            <li><em>3a Sessions tècniques ERE música i dansa — DGIIE i UEO</em> (se incorporan medidas por niveles y adaptaciones de pruebas de acceso; material de apoyo técnico vinculado al trabajo de servicios especializados, UEO e inspección educativa).</li>
+            <li><em>1a Sesiones técnicas ERE música y danza — CEFIRE Inclusiva</em> (bloque de propuestas para conservatorios de música).</li>
+            <li><em>3a Sessions tècniques ERE música i dansa — DGIIE i UEO</em> (medidas por niveles y adaptaciones de pruebas de acceso; material de servicios especializados, UEO e inspección educativa).</li>
           </ol>
         </section>
+
+        <!-- Contribuir -->
+        <section id="contribuir" aria-labelledby="h-contribuir">
+          <h2 id="h-contribuir">¿Quieres contribuir?</h2>
+          <p>Si quieres corregir, matizar o ampliar la información o el banco de ejemplos, puedes:</p>
+          <ul class="contribute-list">
+            <li>Escribir a <a href="mailto:jl.mirallesbono@edu.gva.es">jl.mirallesbono@edu.gva.es</a></li>
+            <li>Hacer tus propuestas en el <a href="https://github.com/JLMirallesB/incluxat" rel="external" target="_blank">repositorio de GitHub</a></li>
+          </ul>
+        </section>
+
+        <!-- Descarga -->
+        <div class="download-bar">
+          <div class="download-bar__text">
+            <strong>Base de conocimiento en Markdown</strong>
+            <span>Descárgala para usarla como fuente RAG en tu propio sistema.</span>
+          </div>
+          <a href="incluxat.md" download="incluxat-base-conocimiento.md" class="btn-download">
+            Descargar .md
+          </a>
+        </div>
+
       </div><!-- /block--human -->
 
 
-      <!-- ╔════════════════════════════════════════════════╗
-           ║  DIVISOR                                      ║
-           ╚════════════════════════════════════════════════╝ -->
+      <!-- Divisor -->
       <div class="block-divider" role="separator" aria-label="Inicio de la base de conocimiento">
         <span class="block-divider__line" aria-hidden="true"></span>
         <span class="block-divider__label">Base de conocimiento</span>
@@ -141,21 +183,21 @@
       </div>
 
 
-      <!-- ╔════════════════════════════════════════════════╗
-           ║  BLOQUE 2 — BASE DE CONOCIMIENTO (RAG + humanos) ║
-           ╚════════════════════════════════════════════════╝ -->
+      <!-- ╔══════════════════════════════════════════════╗
+           ║  BLOQUE 2 — BASE DE CONOCIMIENTO (RAG)      ║
+           ╚══════════════════════════════════════════════╝ -->
       <div class="block block--rag"
            id="base-conocimiento"
            data-rag-content="true"
            data-rag-language="es"
-           data-rag-domain="educacion-inclusiva-conservatorios"
-           aria-label="Base de conocimiento — contenido de referencia para RAG y docentes">
+           data-rag-domain="educacion-inclusiva-conservatorios-cv"
+           aria-label="Base de conocimiento — contenido de referencia">
 
         <div class="block-badge block-badge--rag" aria-hidden="true">
           <span class="block-badge__icon">⬡</span> Base de conocimiento
         </div>
 
-        <!-- ── Legislación ─────────────────────────────── -->
+        <!-- Legislación -->
         <section id="legislacion" aria-labelledby="h-legislacion">
           <h2 id="h-legislacion">Legislación directamente vinculada a conservatorios</h2>
           <p class="section-note">Transcripción literal de los artículos aplicables.</p>
@@ -193,10 +235,9 @@
           </article>
         </section>
 
-        <!-- ── Definiciones ────────────────────────────── -->
+        <!-- Definiciones -->
         <section id="definiciones" aria-labelledby="h-def">
           <h2 id="h-def">Definiciones troncales</h2>
-
           <dl class="definitions">
             <div class="definition-item">
               <dt>Educación inclusiva</dt>
@@ -213,66 +254,49 @@
           </dl>
         </section>
 
-        <!-- ── Niveles 1–4 ─────────────────────────────── -->
+        <!-- Niveles -->
         <section id="niveles" aria-labelledby="h-niveles">
           <h2 id="h-niveles">Niveles 1–4</h2>
-
           <div class="levels-grid">
             <article class="level-card" aria-labelledby="h-n1">
               <h3 id="h-n1" class="level-label">Nivel 1</h3>
               <dl>
-                <dt>Alcance</dt>
-                <dd>Centro y comunidad educativa.</dd>
-                <dt>Contenido</dt>
-                <dd>Planificación, organización general, apoyos y cultura inclusiva.</dd>
-                <dt>Documentos clave</dt>
-                <dd>PEC y PAM.</dd>
+                <dt>Alcance</dt><dd>Centro y comunidad educativa.</dd>
+                <dt>Contenido</dt><dd>Planificación, organización general, apoyos y cultura inclusiva.</dd>
+                <dt>Documentos clave</dt><dd>PEC y PAM.</dd>
               </dl>
             </article>
-
             <article class="level-card" aria-labelledby="h-n2">
               <h3 id="h-n2" class="level-label">Nivel 2</h3>
               <dl>
-                <dt>Alcance</dt>
-                <dd>Grupo-clase.</dd>
-                <dt>Contenido</dt>
-                <dd>Medidas generales con apoyos ordinarios, programación inclusiva y prevención.</dd>
-                <dt>Documentos clave</dt>
-                <dd>Unidades didácticas, PAT y plan de igualdad/convivencia.</dd>
+                <dt>Alcance</dt><dd>Grupo-clase.</dd>
+                <dt>Contenido</dt><dd>Medidas generales con apoyos ordinarios, programación inclusiva y prevención.</dd>
+                <dt>Documentos clave</dt><dd>Unidades didácticas, PAT y plan de igualdad/convivencia.</dd>
               </dl>
             </article>
-
             <article class="level-card" aria-labelledby="h-n3">
               <h3 id="h-n3" class="level-label">Nivel 3</h3>
               <dl>
-                <dt>Alcance</dt>
-                <dd>Alumnado con respuesta diferenciada individual o grupal.</dd>
-                <dt>Contenido</dt>
-                <dd>Apoyos ordinarios adicionales, medidas curriculares y acompañamiento personalizado.</dd>
-                <dt>Documentos clave</dt>
-                <dd>Plan de atención a la diversidad, PAT y concreción en PAM.</dd>
+                <dt>Alcance</dt><dd>Alumnado con respuesta diferenciada individual o grupal.</dd>
+                <dt>Contenido</dt><dd>Apoyos ordinarios adicionales, medidas curriculares y acompañamiento personalizado.</dd>
+                <dt>Documentos clave</dt><dd>Plan de atención a la diversidad, PAT y concreción en PAM.</dd>
               </dl>
             </article>
-
             <article class="level-card level-card--high" aria-labelledby="h-n4">
               <h3 id="h-n4" class="level-label">Nivel 4</h3>
               <dl>
-                <dt>Alcance</dt>
-                <dd>Alumnado con respuesta personalizada extraordinaria.</dd>
-                <dt>Contenido</dt>
-                <dd>Medidas y apoyos especializados adicionales (p. ej., ACIS y accesibilidad singular).</dd>
-                <dt>Documento clave</dt>
-                <dd>PAP.</dd>
+                <dt>Alcance</dt><dd>Alumnado con respuesta personalizada extraordinaria.</dd>
+                <dt>Contenido</dt><dd>Medidas y apoyos especializados adicionales (p. ej., ACIS y accesibilidad singular).</dd>
+                <dt>Documento clave</dt><dd>PAP.</dd>
               </dl>
               <p class="critical-note" role="note"><strong>Regla crítica:</strong> requiere evaluación sociopsicopedagógica e informe preceptivos.</p>
             </article>
           </div>
         </section>
 
-        <!-- ── Tipos de medidas ────────────────────────── -->
+        <!-- Tipos de medidas -->
         <section id="tipos-medidas" aria-labelledby="h-tipos">
           <h2 id="h-tipos">Tipos de medidas</h2>
-
           <dl class="definitions">
             <div class="definition-item">
               <dt>Acceso</dt>
@@ -289,15 +313,13 @@
           </dl>
         </section>
 
-        <!-- ── Banco de ejemplos ───────────────────────── -->
+        <!-- Banco de ejemplos -->
         <section id="banco-ejemplos" aria-labelledby="h-banco">
           <h2 id="h-banco">Banco de ejemplos por nivel y dimensión</h2>
           <p class="section-note" role="note">La clasificación por dimensión es orientativa; muchas medidas impactan en varias dimensiones a la vez.</p>
 
-          <!-- Nivel 1 -->
           <section id="nivel-1" aria-labelledby="h-banco-n1">
             <h3 id="h-banco-n1">Nivel 1 — Centro y comunidad educativa</h3>
-
             <h4>Acceso</h4>
             <ul>
               <li>Registro y transmisión de información educativa con protección de datos.</li>
@@ -308,7 +330,6 @@
               <li>Actualización de recursos tecnológicos con criterios de accesibilidad.</li>
               <li>Organización de recursos personales y coordinación entre profesionales.</li>
             </ul>
-
             <h4>Aprendizaje</h4>
             <ul>
               <li>Concreciones curriculares inclusivas y acuerdos metodológicos de centro.</li>
@@ -316,7 +337,6 @@
               <li>Procedimientos de evaluación inclusiva y revisión de programaciones.</li>
               <li>Formación del profesorado en inclusión.</li>
             </ul>
-
             <h4>Participación</h4>
             <ul>
               <li>Revisión participativa de normas y valores inclusivos en PEC.</li>
@@ -326,10 +346,8 @@
             </ul>
           </section>
 
-          <!-- Nivel 2 -->
           <section id="nivel-2" aria-labelledby="h-banco-n2">
             <h3 id="h-banco-n2">Nivel 2 — Grupo-clase</h3>
-
             <h4>Acceso</h4>
             <ul>
               <li>Control preventivo de asistencia y seguimiento inicial de absentismo.</li>
@@ -337,7 +355,6 @@
               <li>Mejora de condiciones físicas del aula: iluminación, acústica, baja distracción, ubicación adecuada.</li>
               <li>Instrucciones claras, breves y con apoyos visuales.</li>
             </ul>
-
             <h4>Aprendizaje</h4>
             <ul>
               <li>Programación multinivel y metodologías activas/cooperativas.</li>
@@ -345,7 +362,6 @@
               <li>Actividades de ampliación y refuerzo dentro de unidades didácticas.</li>
               <li>Prevención de dificultades de aprendizaje.</li>
             </ul>
-
             <h4>Participación</h4>
             <ul>
               <li>Normas de convivencia consensuadas y revisadas.</li>
@@ -355,7 +371,6 @@
             </ul>
           </section>
 
-          <!-- Conservatorios por asignatura -->
           <section id="conservatorios" aria-labelledby="h-conservatorios">
             <h3 id="h-conservatorios">Conservatorios de música: banco ampliado por asignaturas y contextos</h3>
 
@@ -363,14 +378,10 @@
               <h4 id="h-instrumento">Instrumento individual</h4>
               <p class="level-ref">Nivel habitual: II–III (IV si requiere medios singulares o apoyos especializados).</p>
               <dl class="measure-list">
-                <dt>Acceso</dt>
-                <dd>Ajuste ergonómico (atril, banqueta, iluminación), partituras en formato accesible (tamaño, color, contraste), anticipación de rutina de clase y práctica.</dd>
-                <dt>Aprendizaje</dt>
-                <dd>Objetivos microsecuenciados por fragmentos, control de tempo progresivo, modelado audiovisual de pasajes críticos, autoinstrucciones para estudio autónomo.</dd>
-                <dt>Participación</dt>
-                <dd>Miniinterpretaciones de baja exposición antes de audición completa, feedback estructurado de tarea/proceso/autorregulación, plan de tolerancia al error.</dd>
-                <dt>Indicadores</dt>
-                <dd>Disminución de bloqueos en pasajes clave, mejora de autonomía en estudio y mayor estabilidad en interpretación.</dd>
+                <dt>Acceso</dt><dd>Ajuste ergonómico (atril, banqueta, iluminación), partituras en formato accesible (tamaño, color, contraste), anticipación de rutina de clase y práctica.</dd>
+                <dt>Aprendizaje</dt><dd>Objetivos microsecuenciados por fragmentos, control de tempo progresivo, modelado audiovisual de pasajes críticos, autoinstrucciones para estudio autónomo.</dd>
+                <dt>Participación</dt><dd>Miniinterpretaciones de baja exposición antes de audición completa, feedback estructurado de tarea/proceso/autorregulación, plan de tolerancia al error.</dd>
+                <dt>Indicadores</dt><dd>Disminución de bloqueos en pasajes clave, mejora de autonomía en estudio y mayor estabilidad en interpretación.</dd>
               </dl>
             </article>
 
@@ -378,14 +389,10 @@
               <h4 id="h-lenguaje">Lenguaje musical</h4>
               <p class="level-ref">Nivel habitual: II–III.</p>
               <dl class="measure-list">
-                <dt>Acceso</dt>
-                <dd>Apoyos visuales estables (código de color, esquemas rítmicos, lectura fácil en enunciados), audio de referencia para lectura y dictado.</dd>
-                <dt>Aprendizaje</dt>
-                <dd>Dictado por capas (ritmo, luego altura, luego detalle), práctica multisensorial (voz, gesto, percusión corporal), evaluación fraccionada por componentes.</dd>
-                <dt>Participación</dt>
-                <dd>Trabajo cooperativo por roles (marcador de pulso, verificador de entradas, revisor de errores), coevaluación guiada.</dd>
-                <dt>Indicadores</dt>
-                <dd>Mejora en precisión rítmica, reducción de errores por sobrecarga y aumento de participación en tareas de grupo.</dd>
+                <dt>Acceso</dt><dd>Apoyos visuales estables (código de color, esquemas rítmicos, lectura fácil en enunciados), audio de referencia para lectura y dictado.</dd>
+                <dt>Aprendizaje</dt><dd>Dictado por capas (ritmo, luego altura, luego detalle), práctica multisensorial (voz, gesto, percusión corporal), evaluación fraccionada por componentes.</dd>
+                <dt>Participación</dt><dd>Trabajo cooperativo por roles (marcador de pulso, verificador de entradas, revisor de errores), coevaluación guiada.</dd>
+                <dt>Indicadores</dt><dd>Mejora en precisión rítmica, reducción de errores por sobrecarga y aumento de participación en tareas de grupo.</dd>
               </dl>
             </article>
 
@@ -393,14 +400,10 @@
               <h4 id="h-armonia">Armonía y análisis</h4>
               <p class="level-ref">Nivel habitual: II–III.</p>
               <dl class="measure-list">
-                <dt>Acceso</dt>
-                <dd>Plantillas de análisis, mapas visuales de funciones armónicas, glosario accesible de términos.</dd>
-                <dt>Aprendizaje</dt>
-                <dd>Andamiaje por pasos (identificar función, justificar enlace, aplicar en ejemplo), comparación entre obras y transferencia a repertorio propio.</dd>
-                <dt>Participación</dt>
-                <dd>Exposición breve con apoyo visual, discusión guiada entre pares y tareas de creación aplicadas (reharmonización simple).</dd>
-                <dt>Indicadores</dt>
-                <dd>Mayor consistencia en justificación analítica y mejor transferencia teoría-práctica.</dd>
+                <dt>Acceso</dt><dd>Plantillas de análisis, mapas visuales de funciones armónicas, glosario accesible de términos.</dd>
+                <dt>Aprendizaje</dt><dd>Andamiaje por pasos (identificar función, justificar enlace, aplicar en ejemplo), comparación entre obras y transferencia a repertorio propio.</dd>
+                <dt>Participación</dt><dd>Exposición breve con apoyo visual, discusión guiada entre pares y tareas de creación aplicadas (reharmonización simple).</dd>
+                <dt>Indicadores</dt><dd>Mayor consistencia en justificación analítica y mejor transferencia teoría-práctica.</dd>
               </dl>
             </article>
 
@@ -408,14 +411,10 @@
               <h4 id="h-conjunto">Conjunto, orquesta y banda</h4>
               <p class="level-ref">Nivel habitual: II–III (IV cuando la accesibilidad exija organización singular o apoyo especializado).</p>
               <dl class="measure-list">
-                <dt>Acceso</dt>
-                <dd>Ubicación acústica/visual funcional, particellas adaptadas, instrucciones previas de ensayo en formato accesible.</dd>
-                <dt>Aprendizaje</dt>
-                <dd>Ensayo por bloques, entradas señalizadas, objetivos por secciones, uso de pistas de referencia para estudio en casa.</dd>
-                <dt>Participación</dt>
-                <dd>Asignación de roles musicales ajustados, rotación progresiva de responsabilidad y plan de inclusión en actuaciones.</dd>
-                <dt>Indicadores</dt>
-                <dd>Mejor sincronía grupal, reducción de desconexión en ensayo y permanencia activa en agrupación.</dd>
+                <dt>Acceso</dt><dd>Ubicación acústica/visual funcional, particellas adaptadas, instrucciones previas de ensayo en formato accesible.</dd>
+                <dt>Aprendizaje</dt><dd>Ensayo por bloques, entradas señalizadas, objetivos por secciones, uso de pistas de referencia para estudio en casa.</dd>
+                <dt>Participación</dt><dd>Asignación de roles musicales ajustados, rotación progresiva de responsabilidad y plan de inclusión en actuaciones.</dd>
+                <dt>Indicadores</dt><dd>Mejor sincronía grupal, reducción de desconexión en ensayo y permanencia activa en agrupación.</dd>
               </dl>
             </article>
 
@@ -423,14 +422,10 @@
               <h4 id="h-camara">Música de cámara</h4>
               <p class="level-ref">Nivel habitual: II–III.</p>
               <dl class="measure-list">
-                <dt>Acceso</dt>
-                <dd>Acuerdos explícitos de comunicación y turnos, guion de ensayo y estructura de sesión previsible.</dd>
-                <dt>Aprendizaje</dt>
-                <dd>Trabajo de escucha activa (balance, fraseo compartido, respiraciones), metas de ensayo concretas por sesión.</dd>
-                <dt>Participación</dt>
-                <dd>Corresponsabilidad en decisiones interpretativas y revisión conjunta postensayo.</dd>
-                <dt>Indicadores</dt>
-                <dd>Mejora de cohesión de grupo, menor conflicto interpersonal y mayor calidad de ajuste expresivo.</dd>
+                <dt>Acceso</dt><dd>Acuerdos explícitos de comunicación y turnos, guion de ensayo y estructura de sesión previsible.</dd>
+                <dt>Aprendizaje</dt><dd>Trabajo de escucha activa (balance, fraseo compartido, respiraciones), metas de ensayo concretas por sesión.</dd>
+                <dt>Participación</dt><dd>Corresponsabilidad en decisiones interpretativas y revisión conjunta postensayo.</dd>
+                <dt>Indicadores</dt><dd>Mejora de cohesión de grupo, menor conflicto interpersonal y mayor calidad de ajuste expresivo.</dd>
               </dl>
             </article>
 
@@ -438,14 +433,10 @@
               <h4 id="h-coro">Coro</h4>
               <p class="level-ref">Nivel habitual: II–III.</p>
               <dl class="measure-list">
-                <dt>Acceso</dt>
-                <dd>Apoyos fonéticos y visuales de texto, ubicación que facilite referencia auditiva y visual del director.</dd>
-                <dt>Aprendizaje</dt>
-                <dd>Estudio por cuerdas con apoyos audio, secuenciación de afinación-ritmo-dicción y repetición con variaciones.</dd>
-                <dt>Participación</dt>
-                <dd>Entradas progresivas en pasajes complejos, refuerzo del sentido de pertenencia al grupo vocal.</dd>
-                <dt>Indicadores</dt>
-                <dd>Mayor estabilidad de afinación, mejor dicción colectiva y aumento de seguridad escénica.</dd>
+                <dt>Acceso</dt><dd>Apoyos fonéticos y visuales de texto, ubicación que facilite referencia auditiva y visual del director.</dd>
+                <dt>Aprendizaje</dt><dd>Estudio por cuerdas con apoyos audio, secuenciación de afinación-ritmo-dicción y repetición con variaciones.</dd>
+                <dt>Participación</dt><dd>Entradas progresivas en pasajes complejos, refuerzo del sentido de pertenencia al grupo vocal.</dd>
+                <dt>Indicadores</dt><dd>Mayor estabilidad de afinación, mejor dicción colectiva y aumento de seguridad escénica.</dd>
               </dl>
             </article>
 
@@ -453,14 +444,10 @@
               <h4 id="h-audiciones">Audiciones, conciertos y evaluación práctica</h4>
               <p class="level-ref">Nivel habitual: II–III (IV en situaciones de salud mental grave o necesidad de apoyo especializado).</p>
               <dl class="measure-list">
-                <dt>Acceso</dt>
-                <dd>Protocolo predecible de audición, organización de turnos para reducir espera y sobrecarga, condiciones de sala accesibles.</dd>
-                <dt>Aprendizaje</dt>
-                <dd>Rúbrica conocida previamente, simulaciones de audición y práctica de autorregulación antes/durante/después.</dd>
-                <dt>Participación</dt>
-                <dd>Formatos de exposición graduada (aula, grupo pequeño, audición abierta), devolución individualizada y plan de mejora.</dd>
-                <dt>Indicadores</dt>
-                <dd>Reducción de evitación escénica, mejora de rendimiento en contexto real y continuidad en participación pública.</dd>
+                <dt>Acceso</dt><dd>Protocolo predecible de audición, organización de turnos para reducir espera y sobrecarga, condiciones de sala accesibles.</dd>
+                <dt>Aprendizaje</dt><dd>Rúbrica conocida previamente, simulaciones de audición y práctica de autorregulación antes/durante/después.</dd>
+                <dt>Participación</dt><dd>Formatos de exposición graduada (aula, grupo pequeño, audición abierta), devolución individualizada y plan de mejora.</dd>
+                <dt>Indicadores</dt><dd>Reducción de evitación escénica, mejora de rendimiento en contexto real y continuidad en participación pública.</dd>
               </dl>
             </article>
 
@@ -468,22 +455,16 @@
               <h4 id="h-tutoria">Tutoría y coordinación de doble itinerario (ESO/Bach + EP)</h4>
               <p class="level-ref">Nivel habitual: III.</p>
               <dl class="measure-list">
-                <dt>Acceso</dt>
-                <dd>Coordinación de calendario y cargas de trabajo entre centros, información comprensible para familia y alumnado.</dd>
-                <dt>Aprendizaje</dt>
-                <dd>Priorización temporal de objetivos curriculares e instrumentales en periodos de alta carga.</dd>
-                <dt>Participación</dt>
-                <dd>Plan preventivo de abandono y seguimiento tutorial con compromisos realistas.</dd>
-                <dt>Indicadores</dt>
-                <dd>Menor absentismo, mejor equilibrio de exigencias y continuidad del itinerario combinado.</dd>
+                <dt>Acceso</dt><dd>Coordinación de calendario y cargas de trabajo entre centros, información comprensible para familia y alumnado.</dd>
+                <dt>Aprendizaje</dt><dd>Priorización temporal de objetivos curriculares e instrumentales en periodos de alta carga.</dd>
+                <dt>Participación</dt><dd>Plan preventivo de abandono y seguimiento tutorial con compromisos realistas.</dd>
+                <dt>Indicadores</dt><dd>Menor absentismo, mejor equilibrio de exigencias y continuidad del itinerario combinado.</dd>
               </dl>
             </article>
           </section>
 
-          <!-- Nivel 3 -->
           <section id="nivel-3" aria-labelledby="h-banco-n3">
             <h3 id="h-banco-n3">Nivel 3 — Respuesta diferenciada</h3>
-
             <h4>Acceso</h4>
             <ul>
               <li>Seguimiento intensivo de absentismo y actuaciones específicas.</li>
@@ -491,7 +472,6 @@
               <li>Docencia compartida y agrupamientos heterogéneos de apoyo.</li>
               <li>Coordinación reforzada con orientación y agentes externos.</li>
             </ul>
-
             <h4>Aprendizaje</h4>
             <ul>
               <li>Adecuación personalizada de programaciones didácticas.</li>
@@ -503,7 +483,6 @@
               <li>Programas de enriquecimiento (altas capacidades) y medidas específicas previstas en norma.</li>
               <li>Medidas para alumnado que compagina ESO/Bachillerato con enseñanzas profesionales de música/danza.</li>
             </ul>
-
             <h4>Participación</h4>
             <ul>
               <li>Programas de acompañamiento para autorregulación emocional y habilidades sociales.</li>
@@ -512,10 +491,8 @@
             </ul>
           </section>
 
-          <!-- Nivel 4 -->
           <section id="nivel-4" aria-labelledby="h-banco-n4">
             <h3 id="h-banco-n4">Nivel 4 — Respuesta personalizada extraordinaria</h3>
-
             <h4>Acceso</h4>
             <ul>
               <li>Adaptación de pruebas de acceso cuando proceda.</li>
@@ -524,7 +501,6 @@
               <li>Sistemas aumentativos o alternativos de comunicación.</li>
               <li>Reducción de ratio y apoyos de alta intensidad cuando proceda.</li>
             </ul>
-
             <h4>Aprendizaje</h4>
             <ul>
               <li>Programas personalizados de comunicación, lenguaje y habla.</li>
@@ -532,14 +508,12 @@
               <li>Programas específicos personalizados (sensorial, cognitivo, motor, autonomía).</li>
               <li>Flexibilizaciones y prórrogas previstas en la norma.</li>
             </ul>
-
             <h4>Participación</h4>
             <ul>
               <li>Programas específicos para alteraciones graves de conducta.</li>
               <li>Plan terapéutico en situaciones de salud mental grave.</li>
               <li>Coordinación intensiva con familia y agentes externos.</li>
             </ul>
-
             <h4>Apoyos técnicos citados en guías (cuando proceda)</h4>
             <ul>
               <li>Emisora FM.</li>
@@ -550,124 +524,92 @@
           </section>
         </section>
 
-        <!-- ── Perfiles de necesidad ───────────────────── -->
+        <!-- Perfiles -->
         <section id="perfiles" aria-labelledby="h-perfiles">
           <h2 id="h-perfiles">Banco ampliado por perfiles de necesidad en conservatorios</h2>
 
           <article class="profile-card" aria-labelledby="h-tea">
             <h3 id="h-tea">TEA</h3>
             <dl class="measure-list">
-              <dt>Señales de alerta habituales</dt>
-              <dd>Alta ansiedad por cambios de rutina, sobrecarga sensorial, rigidez en secuencias de trabajo, bloqueo en situaciones de exposición.</dd>
-              <dt>Medidas base (niveles II–III)</dt>
-              <dd>Acceso con agenda visual y anticipación; aprendizaje por secuencias cortas y estables; participación con exposición gradual y reglas de interacción explícitas.</dd>
-              <dt>Cuándo valorar nivel IV</dt>
-              <dd>Si persiste disfunción grave pese a medidas II–III o se requieren apoyos especializados estables.</dd>
-              <dt>Indicadores</dt>
-              <dd>Menor desregulación en clase/ensayo, mayor tolerancia a cambios y mantenimiento en actividades colectivas.</dd>
+              <dt>Señales de alerta habituales</dt><dd>Alta ansiedad por cambios de rutina, sobrecarga sensorial, rigidez en secuencias de trabajo, bloqueo en situaciones de exposición.</dd>
+              <dt>Medidas base (niveles II–III)</dt><dd>Acceso con agenda visual y anticipación; aprendizaje por secuencias cortas y estables; participación con exposición gradual y reglas de interacción explícitas.</dd>
+              <dt>Cuándo valorar nivel IV</dt><dd>Si persiste disfunción grave pese a medidas II–III o se requieren apoyos especializados estables.</dd>
+              <dt>Indicadores</dt><dd>Menor desregulación en clase/ensayo, mayor tolerancia a cambios y mantenimiento en actividades colectivas.</dd>
             </dl>
           </article>
 
           <article class="profile-card" aria-labelledby="h-tdah">
             <h3 id="h-tdah">TDAH</h3>
             <dl class="measure-list">
-              <dt>Señales de alerta habituales</dt>
-              <dd>Distractibilidad sostenida, impulsividad en ejecución, variabilidad marcada del rendimiento.</dd>
-              <dt>Medidas base (niveles II–III)</dt>
-              <dd>Acceso con ubicación de baja distracción y consignas breves; aprendizaje con tareas segmentadas y marcadores de tiempo; participación con roles activos y retroalimentación frecuente.</dd>
-              <dt>Cuándo valorar nivel IV</dt>
-              <dd>Si la desorganización funcional limita de forma persistente el progreso pese a medidas reforzadas.</dd>
-              <dt>Indicadores</dt>
-              <dd>Aumento de tiempo en tarea, mejora de finalización de ejercicios y menor interferencia conductual en grupo.</dd>
+              <dt>Señales de alerta habituales</dt><dd>Distractibilidad sostenida, impulsividad en ejecución, variabilidad marcada del rendimiento.</dd>
+              <dt>Medidas base (niveles II–III)</dt><dd>Acceso con ubicación de baja distracción y consignas breves; aprendizaje con tareas segmentadas y marcadores de tiempo; participación con roles activos y retroalimentación frecuente.</dd>
+              <dt>Cuándo valorar nivel IV</dt><dd>Si la desorganización funcional limita de forma persistente el progreso pese a medidas reforzadas.</dd>
+              <dt>Indicadores</dt><dd>Aumento de tiempo en tarea, mejora de finalización de ejercicios y menor interferencia conductual en grupo.</dd>
             </dl>
           </article>
 
           <article class="profile-card" aria-labelledby="h-dea">
             <h3 id="h-dea">Dificultades específicas de aprendizaje (lectoescritura/dislexia y similares)</h3>
             <dl class="measure-list">
-              <dt>Señales de alerta habituales</dt>
-              <dd>Fatiga lectora, errores de decodificación en texto/partitura, lentitud en tareas escritas.</dd>
-              <dt>Medidas base (niveles II–III)</dt>
-              <dd>Acceso con formato textual accesible y apoyos audio; aprendizaje con lectura fácil, descomposición de consignas y evaluación por componentes; participación con opciones de respuesta no exclusivamente escritas.</dd>
-              <dt>Cuándo valorar nivel IV</dt>
-              <dd>Si precisa medios singulares de acceso de forma continuada.</dd>
-              <dt>Indicadores</dt>
-              <dd>Mejora de comprensión de consignas, reducción de error formal no musical y progreso estable en evaluación práctica.</dd>
+              <dt>Señales de alerta habituales</dt><dd>Fatiga lectora, errores de decodificación en texto/partitura, lentitud en tareas escritas.</dd>
+              <dt>Medidas base (niveles II–III)</dt><dd>Acceso con formato textual accesible y apoyos audio; aprendizaje con lectura fácil, descomposición de consignas y evaluación por componentes; participación con opciones de respuesta no exclusivamente escritas.</dd>
+              <dt>Cuándo valorar nivel IV</dt><dd>Si precisa medios singulares de acceso de forma continuada.</dd>
+              <dt>Indicadores</dt><dd>Mejora de comprensión de consignas, reducción de error formal no musical y progreso estable en evaluación práctica.</dd>
             </dl>
           </article>
 
           <article class="profile-card" aria-labelledby="h-auditiva">
             <h3 id="h-auditiva">Discapacidad auditiva</h3>
             <dl class="measure-list">
-              <dt>Señales de alerta habituales</dt>
-              <dd>Pérdida de información oral en aula/ensayo, dificultad en consigna rápida o en entornos ruidosos.</dd>
-              <dt>Medidas base (niveles II–III)</dt>
-              <dd>Acceso con control acústico, lectura labiofacial y apoyos visuales; aprendizaje con consignas redundantes oral-visual y verificación de comprensión; participación con ajustes de ubicación y dinámica grupal.</dd>
-              <dt>Cuándo valorar nivel IV</dt>
-              <dd>Necesidad de sistemas específicos (p. ej., FM) o apoyos especializados permanentes.</dd>
-              <dt>Indicadores</dt>
-              <dd>Mejor comprensión de consignas, menor repetición de instrucciones y mayor precisión en entradas/intervenciones.</dd>
+              <dt>Señales de alerta habituales</dt><dd>Pérdida de información oral en aula/ensayo, dificultad en consigna rápida o en entornos ruidosos.</dd>
+              <dt>Medidas base (niveles II–III)</dt><dd>Acceso con control acústico, lectura labiofacial y apoyos visuales; aprendizaje con consignas redundantes oral-visual y verificación de comprensión; participación con ajustes de ubicación y dinámica grupal.</dd>
+              <dt>Cuándo valorar nivel IV</dt><dd>Necesidad de sistemas específicos (p. ej., FM) o apoyos especializados permanentes.</dd>
+              <dt>Indicadores</dt><dd>Mejor comprensión de consignas, menor repetición de instrucciones y mayor precisión en entradas/intervenciones.</dd>
             </dl>
           </article>
 
           <article class="profile-card" aria-labelledby="h-visual">
             <h3 id="h-visual">Discapacidad visual (baja visión/ceguera)</h3>
             <dl class="measure-list">
-              <dt>Señales de alerta habituales</dt>
-              <dd>Dificultad para seguir notación estándar, fatiga visual, desorientación espacial en aula/escenario.</dd>
-              <dt>Medidas base (niveles II–III)</dt>
-              <dd>Acceso con contraste, tamaño y ayudas ópticas; aprendizaje con materiales adaptados y verbalización estructurada; participación con organización espacial estable y anticipación de cambios.</dd>
-              <dt>Cuándo valorar nivel IV</dt>
-              <dd>Necesidad de braille musical, línea braille u otros medios singulares.</dd>
-              <dt>Indicadores</dt>
-              <dd>Mayor autonomía de lectura/estudio y mejor seguridad en desplazamiento y actuación.</dd>
+              <dt>Señales de alerta habituales</dt><dd>Dificultad para seguir notación estándar, fatiga visual, desorientación espacial en aula/escenario.</dd>
+              <dt>Medidas base (niveles II–III)</dt><dd>Acceso con contraste, tamaño y ayudas ópticas; aprendizaje con materiales adaptados y verbalización estructurada; participación con organización espacial estable y anticipación de cambios.</dd>
+              <dt>Cuándo valorar nivel IV</dt><dd>Necesidad de braille musical, línea braille u otros medios singulares.</dd>
+              <dt>Indicadores</dt><dd>Mayor autonomía de lectura/estudio y mejor seguridad en desplazamiento y actuación.</dd>
             </dl>
           </article>
 
           <article class="profile-card" aria-labelledby="h-motriz">
             <h3 id="h-motriz">Discapacidad motriz</h3>
             <dl class="measure-list">
-              <dt>Señales de alerta habituales</dt>
-              <dd>Limitación postural o de movilidad que compromete ejecución instrumental o permanencia en actividad.</dd>
-              <dt>Medidas base (niveles II–III)</dt>
-              <dd>Acceso con adaptación de mobiliario/espacio; aprendizaje con ajustes de tiempo y técnica funcional; participación con adecuación de rol musical en agrupaciones.</dd>
-              <dt>Cuándo valorar nivel IV</dt>
-              <dd>Necesidad de apoyos personales especializados o adaptación organizativa singular sostenida.</dd>
-              <dt>Indicadores</dt>
-              <dd>Disminución de fatiga funcional, mejora de participación efectiva y continuidad en el itinerario.</dd>
+              <dt>Señales de alerta habituales</dt><dd>Limitación postural o de movilidad que compromete ejecución instrumental o permanencia en actividad.</dd>
+              <dt>Medidas base (niveles II–III)</dt><dd>Acceso con adaptación de mobiliario/espacio; aprendizaje con ajustes de tiempo y técnica funcional; participación con adecuación de rol musical en agrupaciones.</dd>
+              <dt>Cuándo valorar nivel IV</dt><dd>Necesidad de apoyos personales especializados o adaptación organizativa singular sostenida.</dd>
+              <dt>Indicadores</dt><dd>Disminución de fatiga funcional, mejora de participación efectiva y continuidad en el itinerario.</dd>
             </dl>
           </article>
 
           <article class="profile-card" aria-labelledby="h-ansiedad">
             <h3 id="h-ansiedad">Ansiedad escénica y otras barreras emocionales de rendimiento</h3>
             <dl class="measure-list">
-              <dt>Señales de alerta habituales</dt>
-              <dd>Evitación de audiciones, bloqueo en interpretación pública, desregulación fisiológica intensa.</dd>
-              <dt>Medidas base (niveles II–III)</dt>
-              <dd>Acceso con condiciones predecibles y tiempos de espera controlados; aprendizaje con simulaciones y entrenamiento de autorregulación; participación con exposición gradual y metas realistas.</dd>
-              <dt>Cuándo valorar nivel IV</dt>
-              <dd>Cuadros de gravedad clínica o necesidad de intervención especializada coordinada.</dd>
-              <dt>Indicadores</dt>
-              <dd>Aumento de presencia en audiciones, menor evitación y mejora del rendimiento bajo evaluación.</dd>
+              <dt>Señales de alerta habituales</dt><dd>Evitación de audiciones, bloqueo en interpretación pública, desregulación fisiológica intensa.</dd>
+              <dt>Medidas base (niveles II–III)</dt><dd>Acceso con condiciones predecibles y tiempos de espera controlados; aprendizaje con simulaciones y entrenamiento de autorregulación; participación con exposición gradual y metas realistas.</dd>
+              <dt>Cuándo valorar nivel IV</dt><dd>Cuadros de gravedad clínica o necesidad de intervención especializada coordinada.</dd>
+              <dt>Indicadores</dt><dd>Aumento de presencia en audiciones, menor evitación y mejora del rendimiento bajo evaluación.</dd>
             </dl>
           </article>
 
           <article class="profile-card" aria-labelledby="h-altas-cap">
             <h3 id="h-altas-cap">Altas capacidades en contexto musical</h3>
             <dl class="measure-list">
-              <dt>Señales de alerta habituales</dt>
-              <dd>Desmotivación por infraexigencia, progreso muy superior al ritmo grupal, baja implicación en tareas repetitivas.</dd>
-              <dt>Medidas base (nivel III)</dt>
-              <dd>Enriquecimiento curricular, ampliación de repertorio/análisis/creación, proyectos de profundización y retos interpretativos.</dd>
-              <dt>Cuándo valorar nivel IV</dt>
-              <dd>Si la respuesta educativa exige flexibilización extraordinaria prevista por norma.</dd>
-              <dt>Indicadores</dt>
-              <dd>Recuperación de motivación, incremento de calidad artística y continuidad de esfuerzo sostenido.</dd>
+              <dt>Señales de alerta habituales</dt><dd>Desmotivación por infraexigencia, progreso muy superior al ritmo grupal, baja implicación en tareas repetitivas.</dd>
+              <dt>Medidas base (nivel III)</dt><dd>Enriquecimiento curricular, ampliación de repertorio/análisis/creación, proyectos de profundización y retos interpretativos.</dd>
+              <dt>Cuándo valorar nivel IV</dt><dd>Si la respuesta educativa exige flexibilización extraordinaria prevista por norma.</dd>
+              <dt>Indicadores</dt><dd>Recuperación de motivación, incremento de calidad artística y continuidad de esfuerzo sostenido.</dd>
             </dl>
           </article>
         </section>
 
-        <!-- ── Pruebas de acceso ───────────────────────── -->
+        <!-- Pruebas de acceso -->
         <section id="pruebas-acceso" aria-labelledby="h-pruebas">
           <h2 id="h-pruebas">Pruebas de acceso: medidas por perfil</h2>
 
@@ -690,14 +632,10 @@
           </ul>
 
           <h4>Discapacidad motriz</h4>
-          <ul>
-            <li>Valorar ampliación de tiempo y ajustes de ejecución.</li>
-          </ul>
+          <ul><li>Valorar ampliación de tiempo y ajustes de ejecución.</li></ul>
 
           <h4>Discapacidad intelectual</h4>
-          <ul>
-            <li>Lectura fácil, apoyos visuales/auditivos y autoinstrucciones.</li>
-          </ul>
+          <ul><li>Lectura fácil, apoyos visuales/auditivos y autoinstrucciones.</li></ul>
 
           <h4>Discapacidad auditiva</h4>
           <ul>
@@ -725,10 +663,53 @@
 
   <footer role="contentinfo">
     <div class="footer-inner">
-      <p>Versión inicial de trabajo: <time datetime="2026-02-28">28 de febrero de 2026</time>. Actualización con materiales de sesiones técnicas: <time datetime="2026-02-28">28 de febrero de 2026</time>.</p>
-      <p class="footer-note">Este documento es una referencia de trabajo sujeta a revisión. No sustituye la normativa oficial ni la intervención de orientación educativa.</p>
+      <p>Incluxat · <a href="https://github.com/JLMirallesB/incluxat" rel="external">GitHub</a> · <a href="https://www.jlmirall.es" rel="author external">jlmirall.es</a></p>
     </div>
   </footer>
+
+  <script>
+    // ── Mobile nav toggle ──────────────────────────────
+    const toggle  = document.querySelector('.nav-toggle');
+    const tocNav  = document.getElementById('toc-nav');
+    const overlay = document.getElementById('toc-overlay');
+    const closeBtn = document.querySelector('.toc-close');
+
+    function openNav() {
+      tocNav.classList.add('toc--open');
+      overlay.classList.add('toc-overlay--visible');
+      overlay.removeAttribute('aria-hidden');
+      toggle.setAttribute('aria-expanded', 'true');
+      toggle.classList.add('nav-toggle--open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeNav() {
+      tocNav.classList.remove('toc--open');
+      overlay.classList.remove('toc-overlay--visible');
+      overlay.setAttribute('aria-hidden', 'true');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.classList.remove('nav-toggle--open');
+      document.body.style.overflow = '';
+    }
+
+    toggle.addEventListener('click', () => {
+      toggle.getAttribute('aria-expanded') === 'true' ? closeNav() : openNav();
+    });
+    closeBtn.addEventListener('click', closeNav);
+    overlay.addEventListener('click', closeNav);
+
+    // Close on nav link click (mobile)
+    tocNav.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        if (window.innerWidth < 900) closeNav();
+      });
+    });
+
+    // Close on Escape
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && tocNav.classList.contains('toc--open')) closeNav();
+    });
+  </script>
 
 </body>
 </html>
