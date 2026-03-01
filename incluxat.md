@@ -105,28 +105,77 @@ Convivencia, pertenencia, bienestar y seguridad para participación efectiva.
 
 ### Participación (ejemplos)
 - Revisión participativa de normas y valores inclusivos en PEC.
-- Planes de igualdad y convivencia.
-- Protocolos de acogida, prevención de violencia y desprotección.
-- Estructuras de participación de alumnado, familias y comunidad.
+- Sensibilización e información sobre valores y contenidos de educación inclusiva dirigida al conjunto de la comunidad educativa (Reglamento de Régimen Interno, protocolos de atención sanitaria, acogida, absentismo y acompañamiento a la identidad y expresión de género).
+- Planes de igualdad y convivencia; protocolos de prevención e intervención ante supuestos de violencia y desprotección.
+- Promoción de la igualdad, la convivencia positiva y la prevención de conflictos y violencia (Pla d'Acció Tutorial, programas preventivos interinstitucionales, proyectos de innovación, proyectos europeos y proyectos de diseño propio).
+- Participación e implicación del profesorado: colaboración, cooperación, codocencia, liderazgo distribuido e innovación sostenible.
+- Participación e implicación del alumnado: delegados, equipos de alumnos ayudantes, tutorías entre iguales, pigmaliones, observadores de convivencia, cibertutores, TEI, Club de deures, DUADOS, biblioteca tutorizada, Club dels valents, etc.
+- Participación e implicación de familias: actividades escolares y comunitarias formales e informales, planes y programas del centro.
+- Participación e implicación de voluntarios y comunidad del entorno: relaciones informales y formales con personas voluntarias de la comunidad, instituciones/asociaciones del entorno local y comunitario.
+- Protocolos de atención sanitaria: planificar, desarrollar y evaluar el desarrollo del protocolo.
+- Promoción de la salud y la sostenibilidad: programas preventivos interinstitucionales, proyectos de innovación, actividad física y esport, alimentación saludable, educación vial, etc.
 
 ## Nivel 2 (grupo-clase)
 ### Acceso (ejemplos)
 - Control preventivo de asistencia y seguimiento inicial de absentismo.
 - Supervisión de accesibilidad en aula y espacios de actividad.
-- Mejora de condiciones físicas del aula: iluminación, acústica, baja distracción, ubicación adecuada.
-- Instrucciones claras, breves y con apoyos visuales.
+- Mejora de condiciones físicas del aula: buena iluminación (evitando deslumbramiento), insonorización y control de ruido circundante, aula estructurada sin elementos distractores, señalización de espacios dentro del aula.
+- Ubicación del alumnado: situar al alumno/a cerca del profesor, lejos de ruidos externos, con buena iluminación y sin reflejos en pizarra.
+- Instrucciones claras, precisas y breves: orales (hablar de forma clara, vocalizando y mirando directamente al alumnado) y gráficas (apoyos visuales, secuencias visuales).
+
+### Reducción de barreras en el aula por dimensión
+- **Barrera física**: garantizar disposición del aula y mobiliario para posición cómoda y ergonómica durante el trabajo con partituras; usar atriles regulables y luces individuales para facilitar visibilidad y postura correcta.
+- **Barrera sensorial**: ofrecer partituras en formatos variados (ampliación de tamaño, uso de colores para diferenciar figuras rítmicas o notas según alturas); incorporar herramientas digitales que permitan escuchar simultáneamente las partituras mientras se observan (aplicaciones de lectura musical interactiva); introducir gráficos o esquemas simplificados de la partitura para alumnado con dificultades en la percepción visual de la notación tradicional.
+- **Barrera cognitiva**: presentar las partituras de forma gradual, empezando con fragmentos pequeños y aumentando la complejidad de manera progresiva; ofrecer ayudas visuales que estructuren la partitura (marcas que señalen los compases importantes o divisiones de frases musicales).
+- **Barrera emocional**: crear un entorno en el que el error sea parte del aprendizaje, fomentando el apoyo mutuo entre compañeros; seleccionar repertorio atractivo y adaptado al nivel de cada alumno para reducir la frustración.
+
+### Marco DUA (Diseño Universal para el Aprendizaje) aplicado al aula de música
+#### Implicación
+- **Motivación**: proponer actividades de lectura grupal donde el alumnado interprete piezas que le resulten significativas o relacionadas con sus intereses; ofrecer alternativas de repertorio y permitir al alumnado participar en la elección de piezas.
+- **Atención**: introducir dinámicas de gamificación (retos o juegos para trabajar patrones rítmicos o melódicos de manera lúdica); alternar el uso de estímulos visuales, auditivos y kinestésicos para mantener la atención del grupo clase.
+- **Memoria**: realizar actividades repetitivas con ligeras variaciones para fortalecer la memoria auditiva y visual (por ejemplo, leer varias veces una misma frase musical con diferentes dinámicas).
+- **Participación**: incluir actividades colaborativas en las que cada alumno toque un fragmento de la partitura, construyendo una pieza de forma conjunta; crear ensambles de pequeño grupo para trabajar la lectura de partituras con apoyo entre compañeros.
+
+#### Feedback
+- **De tarea**: dar retroalimentación específica sobre los elementos trabajados (por ejemplo: "Has mejorado en la diferenciación de negras y corcheas").
+- **De proceso**: valorar el esfuerzo y las estrategias utilizadas por el alumnado, como el uso de colores o pausas para comprender mejor.
+- **De autorregulación**: ayudar al alumno a reflexionar sobre su progreso (por ejemplo: "¿Qué parte te resultó más sencilla hoy? ¿Cómo podrías aplicarlo en la siguiente frase musical?").
+
+#### Acceso (múltiples formas de presentar la información)
+- Ofrecer grabaciones a diferentes velocidades (lento y original) para facilitar el acceso a los detalles de la pieza.
+- Proporcionar comentarios en audio que expliquen los aspectos clave (inicio de frase, cambio de tonalidad, etc.).
+- Dividir la grabación en fragmentos cortos que el alumnado pueda escuchar y analizar por separado antes de abordar la obra completa.
+- Crear guías en lectura fácil o mapas de las secciones de la pieza para que el alumnado se ubique durante la audición.
+- **Diferentes niveles de complejidad**: nivel básico (melodías sencillas o fragmentos pequeños para familiarización gradual) y nivel avanzado (análisis comparativos entre la pieza original y otras interpretaciones o arreglos).
+
+#### Procesamiento
+- Dividir las partituras en fragmentos y trabajarlos de forma independiente, primero a un tempo lento, y luego unirlos.
+- Incluir actividades multisensoriales como marcar el ritmo con las manos o asociar movimientos corporales con las alturas de las notas.
+- Crear diagramas que relacionen conceptos clave (tonalidad, dinámica, ritmo, forma musical) de una pieza o tema musical.
+- Conectar ideas como estructura de la obra, características estilísticas o intenciones expresivas del compositor.
+- Comparar una progresión armónica nueva con una ya conocida (por ejemplo, relacionar una cadencia perfecta con otras obras estudiadas).
+- Dibujar un cronograma que muestre la duración de las diferentes secciones de una obra (introducción, tema A, tema B, coda).
+- Representar visualmente el crecimiento de la intensidad dinámica o el cambio de tonalidades a lo largo de la pieza.
+
+#### Expresión y evaluación
+- **Múltiples formas de expresión**: interpretación musical en diferentes formatos (tocar un fragmento, usar aplicaciones de música digital como GarageBand o Soundtrap); diseñar gráficos o infografías sobre la estructura de una obra; elaborar presentaciones orales con apoyo visual explicando aspectos estilísticos, históricos o técnicos; componer una breve pieza inspirada en los estilos o técnicas trabajados en clase.
+- **Múltiples formas de evaluar**: evaluación formativa continua, autoevaluación y metacognición, evaluación entre pares, exámenes prácticos flexibles, proyectos o productos finales, rúbricas diferenciadas, evaluación mediante tecnología, evaluación inclusiva y accesible.
 
 ### Aprendizaje (ejemplos)
 - Programación multinivel y metodologías activas/cooperativas.
 - Ajuste de evaluación a características del grupo.
 - Actividades de ampliación y refuerzo dentro de unidades didácticas.
+- Planificación personalizada de actividades de ampliación y refuerzo como parte de las unidades didácticas y proyectos.
 - Prevención de dificultades de aprendizaje.
+- Evaluación transversal con criterios que incluyan: liderazgo positivo, aprendizaje colaborativo y cooperativo, autoconfianza y fortalezas personales, planificación de proyectos personales y colectivos, identificación/expresión/autorregulación de emociones y sentimientos, habilidades de comunicación interpersonal y resolución dialogada de conflictos.
 
 ### Participación (ejemplos)
 - Normas de convivencia consensuadas y revisadas.
 - Tutoría, mediación y estructuras de ayuda entre iguales.
+- Tutoría personalizada o tutoría compartida con cualquier alumno/a del grupo clase y sus familias.
 - Actividades de igualdad, convivencia y prevención de violencia.
-- Acciones de orientación académica y profesional inclusiva.
+- Acciones de orientación académica y profesional inclusiva, que incorporen perspectiva de género y promuevan el acceso igualitario a estudios y profesiones.
+- Procedimiento de administración de medicamentos y protocolo de atención sanitaria específica con el alumnado del grupo clase.
 
 ### Subapartado específico de conservatorios de música: banco ampliado por asignaturas/contextos
 ### Instrumento individual
@@ -195,10 +244,11 @@ Convivencia, pertenencia, bienestar y seguridad para participación efectiva.
 ### Aprendizaje (ejemplos)
 - Adecuación personalizada de programaciones didácticas.
 - Programas de refuerzo y planes específicos de recuperación.
-- Lectura fácil y apoyos visuales en materiales.
-- Autoinstrucciones secuenciadas y anticipación de tareas.
-- Ajustes de tiempos con marcadores visuales.
-- Verificación de comprensión, lectura en voz alta y marcado de palabras clave.
+- Lectura fácil y apoyos visuales en materiales. Pautas de lectura fácil: frases cortas y sencillas (una idea por frase), imágenes que apoyen el texto, evitar la voz pasiva y frases en negativo, anticipar vocabulario y marcar en negrita palabras clave.
+- Formato accesible de textos: letra sin serifa (Arial o Verdana), tamaño mínimo 12 puntos, interlineado 1,5, copias de primera impresión con buen contraste, tiza líquida de mayor contraste.
+- Autoinstrucciones secuenciadas con apoyo visual (secuencia e imágenes o texto escrito) y anticipación de tareas.
+- Ajustes de tiempos con marcadores visuales del tiempo en cada tarea.
+- Verificación de comprensión (asegurarse de que ha entendido), lectura en voz alta de enunciados y marcado de palabras clave.
 - Programas de enriquecimiento (altas capacidades) y medidas específicas previstas en norma.
 - Medidas para alumnado que compagina ESO/Bachillerato con enseñanzas profesionales de música/danza.
 
@@ -229,8 +279,11 @@ Convivencia, pertenencia, bienestar y seguridad para participación efectiva.
 ### Apoyos técnicos citados en guías (cuando proceda)
 - Emisora FM.
 - Atril de sobremesa.
-- Lector inmersivo y otras herramientas digitales.
-- Línea braille, lupas y materiales en braille.
+- Microsoft 365 / Lector inmersivo y uso de tiposcopio.
+- Lupas y otros productos de apoyo óptico.
+- Línea braille y materiales en braille.
+- MuseScore (editor de tinta) para alumnado con baja visión.
+- BME (Braille Musical Editor) conectado a línea braille para alumnado con ceguera.
 
 ## Medidas específicas para casos concretos (identificadas)
 Sí. Además de medidas generales por nivel, hay medidas específicas por perfil de necesidad y por situación (especialmente en pruebas de acceso, audiciones y contextos de alto estrés de rendimiento).
@@ -291,23 +344,28 @@ Sí. Además de medidas generales por nivel, hay medidas específicas por perfil
 
 ### Durante la prueba
 - TEA/DEA/TDAH:
-  - Minimizar tiempos de espera.
-  - Ubicación con baja distracción.
-  - Consignas claras y breves.
-  - Lectura de enunciados y comprobación de comprensión.
-  - Autoinstrucciones y marcadores visuales de tiempo.
-  - Formato textual accesible (sin cursiva, Arial/Verdana, interlineado 1,5).
+  - Evitar tiempos largos de espera, priorizando que el alumno/a sea de los primeros.
+  - Ubicar preferentemente en primera fila, alejado de fuentes distractoras.
+  - Explicación clara, breve y concisa de la prueba y de enunciados.
+  - Lectura en voz alta de enunciados y comprobación de que el alumno/a ha comprendido lo que tiene que hacer, usando apoyos visuales y auditivos.
+  - Autoinstrucciones con imágenes o texto escrito, con la secuencia de desarrollo.
+  - Marcador visual del tiempo en cada prueba.
+  - Formato textual accesible: evitar letra cursiva, uso preferente de Arial o Verdana (12), con interlineado de 1,5.
 - Discapacidad motriz:
-  - Valorar ampliación de tiempo y ajustes de ejecución.
+  - Valorar mayor tiempo de realización de la prueba y ajustes de ejecución.
 - Discapacidad intelectual:
-  - Lectura fácil, apoyos visuales/auditivos y autoinstrucciones.
+  - Lectura fácil, apoyos visuales y auditivos, autoinstrucciones.
 - Discapacidad auditiva:
-  - Control de ruido y distancia adecuada para lectura labial.
-  - Comunicación de frente, vocalización y buena iluminación.
-  - Verificación de comprensión y uso correcto de FM si existe.
+  - Situar al alumnado lejos de fuentes sonoras (ruido de ventanas, pasillo, etc.).
+  - Mantener una distancia adecuada profesorado-alumnado (entre 1,5 y 2 metros).
+  - Facilitar la lectura labiofacial: hablar de frente, vocalizando bien, sin habla telegráfica, con buena iluminación.
+  - Ofrecer instrucciones claras, precisas y breves.
+  - Si se usa la pizarra, evitar hablar de espaldas al alumnado; no simultanear escritura en pizarra y explicación oral.
+  - Asegurarse de que el alumnado ha entendido las instrucciones; uso de apoyos visuales.
+  - Si usa emisora de FM: en audiciones, situarla cerca de la fuente sonora o instrumento, conectarla al ordenador.
 - Discapacidad visual:
-  - Baja visión: alto contraste, tamaño adaptado y productos de apoyo.
-  - Ceguera: braille y apoyo técnico específico, con organización espacial estable.
+  - Baja visión: fotocopias de primera impresión con buen contraste letra-fondo; con ordenador, editor tinta MuseScore; explicación oral clara y con detalle; selección de colores adaptada a su discapacidad visual; letra sin serifa (Verdana), tamaño adaptado (12, 14); uso de productos de apoyo (lupas).
+  - Ceguera: uso de productos de apoyo; ordenador con programa específico BME (Braille Musical Editor) conectado a la línea braille; prueba en braille; signografía adaptada a braille; memorización de partitura; mantener el orden en el espacio y avisar de los cambios; maestro de equipo de discapacidad visual de apoyo. Nota: la lectura a primera vista no se realiza (según informe Equipo DV-ONCE).
 
 ## Regla normativa de compatibilidad
 - Todas las adaptaciones de prueba deben respetar el artículo 11.3 de la Orden 20/2019: derecho a adaptación, sin modificación de contenidos básicos evaluados.
@@ -315,3 +373,4 @@ Sí. Además de medidas generales por nivel, hay medidas específicas por perfil
 ---
 Versión inicial de trabajo: 2026-02-28.
 Actualización con materiales de sesiones técnicas: 2026-02-28.
+Ampliación con Cap. IV Exemplificació de mesures d'inclusió (DUA, barreras, lectura fácil, medios técnicos, pruebas de acceso): 2026-03-01.
