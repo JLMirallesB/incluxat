@@ -909,6 +909,114 @@ dl.measure-list dd {
   outline-offset: 3px;
 }
 
+/* ── Prompt box (copiar prompt IA) ────────────────────── */
+.prompt-howto {
+  margin: 1rem 0;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background-color: var(--color-paper);
+}
+
+.prompt-howto summary {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  font-size: var(--font-size-md);
+  list-style: none;
+}
+
+.prompt-howto summary::-webkit-details-marker { display: none; }
+
+.prompt-howto summary::before {
+  content: '▸ ';
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+.prompt-howto[open] summary::before {
+  content: '▾ ';
+}
+
+.prompt-howto ol {
+  padding: 0 1.25rem 1rem 2.5rem;
+  font-size: var(--font-size-sm);
+  line-height: 1.7;
+}
+
+.prompt-howto ol li { margin-bottom: 0.5rem; }
+
+.prompt-howto ul {
+  margin-top: 0.35rem;
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+.prompt-box {
+  border: 1px solid var(--color-border-strong);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.prompt-box__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1rem;
+  background-color: var(--color-paper-alt);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.prompt-box__header strong {
+  font-size: var(--font-size-sm);
+  color: var(--color-ink);
+}
+
+.prompt-box__code {
+  margin: 0;
+  padding: 1rem 1.25rem;
+  background-color: var(--color-paper);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--color-ink-muted);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-height: 20rem;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.btn-copy {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.4rem 0.85rem;
+  background-color: var(--color-accent);
+  color: var(--color-paper-raised);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: filter var(--transition);
+  flex-shrink: 0;
+}
+
+.btn-copy:hover {
+  filter: brightness(1.15);
+}
+
+.btn-copy:focus-visible {
+  outline: 3px solid var(--color-ink);
+  outline-offset: 3px;
+}
+
+.btn-copy--copied {
+  background-color: var(--color-ink-muted);
+  pointer-events: none;
+}
+
 /* ── Footer (mínimo) ─────────────────────────────────── */
 footer[role="contentinfo"] {
   background-color: var(--color-paper-alt);
@@ -1058,6 +1166,17 @@ footer a {
   .btn-download {
     width: 100%;
     justify-content: center;
+  }
+
+  .btn-copy {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .prompt-box__header {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: stretch;
   }
 }
 
